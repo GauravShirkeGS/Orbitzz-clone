@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: whitesmoke;
+        }
+                                   /* <!-- flex travels 3 cards --> */
+        #flex-3{
+            width: 85%;
+            margin: auto;
+            display: flex;
+            margin-top: 140px;
+        }
+        #flex-3>div{
+          width: 30%;
+          height: 160px;
+          
+          margin: auto;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+        }
+        #flex-3>div>img{
+            width: 100%;
+            height: 100%;
+            /* padding: 20px; */
+           filter: drop-shadow(0px 10px 4px gray);
+        }
+                            /* <!-- Featured 4 cards -->         */
+       
+      #featured{
+             width: 85%;
+             margin: auto;
+             margin-top: 40px;
+             padding-left: 15px;
+            
+        }
+        #featured>div{
+            /* width: 100%; */
+            display: flex;
+          
+            line-height: 10px;
+            /* column-gap: 20px; */
+           
+        }
+        #featured>div>div{
+            width: 22%;
+            margin: auto;
+            /* border: 1px solid red; */
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            padding-left: 15px;
+            color: white;
+           
+            -webkit-text-stroke: 0.2px black;
+
+        }
+        #featured>div>div>h3{
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+            font-size: 23px;
+        }
+        #featured>div>div:nth-child(1){
+           background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/02/ORB_Storefront_LastMinute_imgB_900x600_20211101.jpg?impolicy=fcrop&w=600&h=400&q=medium");
+            background-size: cover;
+            
+        }
+        #featured>div>div:nth-child(2){
+            background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/02/ORB_Storefront_AllInclusive_imgB_900x600_20211101.jpg?impolicy=fcrop&w=600&h=400&q=medium");
+            background-size: co;
+            
+        }
+        #featured>div>div:nth-child(3){
+            background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/02/ORB_Storefront_MOD_imgB_900x600_20211101.jpg?impolicy=fcrop&w=600&h=400&q=medium");
+            background-size: co;
+        }
+        #featured>div>div:nth-child(4){
+            background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/02/ORB_Storefront_JetAndReset_imgB_900x600_20211101.jpg?impolicy=fcrop&w=600&h=400&q=medium");
+            background-size: co;
+        }
+        #featured>h1{
+            padding-left: 15px;
+            margin-bottom: 2px;
+        }
+
+
+                 /* Help for travelers */
+
+        #help{
+            width: 85%;
+            margin: auto;
+            padding-left: 15px;
+            margin-top: 80px;
+        }
+        #help>div{
+            display: flex;
+
+        }
+        #help>div>div{
+            width: 30%;
+            margin: auto;
+            /* border: 1px solid red; */
+            box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+            padding: 0px 15px;
+            
+        }
+        #help>div>div>div{
+            display: flex;
+            justify-content: space-between;
+            
+        }
+        #help>div>div>div>img{
+            width: 20px;
+        }
+        #help>div>div>p{
+         margin-top: 0px;
+        }
+    </style>
+</head>
+<body>
+                             <!-- flex travels 3 cards -->
+    <div id="flex-3">
+        <div>
+            <img src="https://forever.travel-assets.com/flex/flexmanager/images/2022/02/09/ORB_BrandPromise_TravelAsYouAre_imgB_840x473_20220207.jpg?impolicy=fcrop&w=900&h=386&q=mediumHigh" alt="">
+            
+        </div>
+        <div>
+            <img src="https://forever.travel-assets.com/flex/flexmanager/images/2022/02/09/ORB_BrandPromise_Rewards_imgB_840x473_20220207.jpg?impolicy=fcrop&w=600&h=257&q=medium" alt="">
+        </div>
+        <div>
+            <img src="https://forever.travel-assets.com/flex/flexmanager/images/2022/02/09/ORB_BrandPromise_InsiderPrices_imgB_840x473_20220207.jpg?impolicy=fcrop&w=600&h=257&q=medium" alt="">
+        </div>
+
+    </div>
+                      <!-- Featured 4 cards -->
+    <div id="featured">
+
+        <h1>Featured offers</h1>
+
+        <div>
+            <div>
+                <h3> Last-minute deals</h3>
+                <p>Getaway today</p>
+            </div>
+            <div>
+                <h3>All-inclusive resorts</h3>
+                <p>Enjoy sun and fun</p>
+            </div>
+            <div>
+                <h3>Insider Prices</h3>
+                <p>Members get rewarded</p>
+            </div>
+            <div>
+                <h3>Jet and reset</h3>
+                <p>Fly somewhere beachy and warm</p>
+            </div>
+        </div>
+
+    </div>
+
+                               <!-- help for travelers -->
+      <div id="help">
+             <h1>Here to help keep you on the move</h1>
+             <div>
+                <div>
+                    <div>
+                        <h2>Change or cancel a trip</h2>
+                        <img src="https://forever.travel-assets.com/flex/flexmanager/images/2021/04/08/icon__mode_edit.svg" alt="">
+                    </div>
+                    <p>Make updates to your itinerary or cancel a booking</p>
+                </div>
+
+                <div>
+                    <div>
+                        <h2>Use a credit or coupon</h2>
+                        <img src="https://forever.travel-assets.com/flex/flexmanager/images/2021/04/08/icon__monetization_on.svg" alt="">
+                    </div>
+                    <p>Apply a coupan code or credit to a new trip</p>
+                </div>
+
+                <div>
+                    <div>
+                        <h2>Track your refund</h2>
+                        <img src="https://forever.travel-assets.com/flex/flexmanager/images/2021/04/08/icon__chat.svg" alt="">
+                    </div>
+                    <p>Check the status of a refund currently in progress</p>
+                </div>
+                
+             </div>
+      </div>
+</body>
+</html>
