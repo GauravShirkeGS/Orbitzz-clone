@@ -1,8 +1,14 @@
+
 body{
     margin: 0px;
     padding: 0px;
      background-color: whitesmoke;
      width: 100%;
+     
+}
+a{
+    text-decoration: none;
+    color: white;
 }
 #nav{
     width: 100%;
@@ -42,7 +48,7 @@ body{
     cursor: pointer;
     background-color: black;
 }
-#nav select:hover,#nav button:hover{
+#nav select:hover,#nav button:hover,a:hover{
     color: rgb(19, 171, 171);
 }
     
