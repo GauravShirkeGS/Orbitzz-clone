@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="Espanol">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espanol</title>
+    
+      <style>
+        body{
+    margin: 0px;
+    padding: 0px;
+     background-color: whitesmoke;
+     width: 100%;
+     
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#nav{
+    width: 100%;
+    height: 50px;
+    /* border: 1px solid black; */
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav>div:first-child{
+    display: flex;
+    width: 33%;
+    /* border: 1px solid red; */
+    margin-left: 80px;
+    justify-content: space-around;
+    align-items: center;
+}
+#nav>div:first-child>img{
+    height: 60px;
+    width:300px ;
+    background-color: #00253c;
+}
+#nav>div:last-child{
+    width: 35%;
+    margin-right: 80px;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#nav select, #nav button{
+    border: none;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    background-color: black;
+}
+#nav select:hover,#nav button:hover,a:hover{
+    color: rgb(19, 171, 171);
+}
+    
+           /* searchbar styles */
+
+
+             #div{
+    background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2020/10/20/AdobeStock_276966704_coloredit10.png?impolicy=fcrop&w=600&h=150&q=medium");
+      width: 96%;
+      background-size: cover;
+      padding: 30px;
+      padding-bottom: 80px;
+      height: auto;
+}
+#div>div{
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    margin-top: 0px;
+    padding: 0px 15px;
+    
+}
+#div>div>div:first-child{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    
+    padding: 15px 0px;
+    height: 40px;
+    justify-content: center;
+    border-bottom: 1px solid gray;
+}
+#div>div>div:first-child>button{
+    margin: 10px;
+    border: none;
+    background-color: white;
+    font-size: 18px;
+    font-weight:lighter;
+    cursor: pointer;
+}
+#div>div>div:first-child>button:hover{
+    color:  rgb(19, 171, 171);
+    text-decoration: underline;
+}
+
+#div>div>div:last-child{
+    width: 100%;
+    /* margin: auto; */
+    margin-top: 25px;
+    /* text-align: center; */
+   
+}     
+#div>div>div:last-child>form{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 35% 13% 13% 25%;
+    grid-template-rows: 50px;
+    gap: 20px;
+}
+#div>div>div:last-child>input{
+margin-top: 15px;
+margin-left: 80px;
+height: 20px;
+width: 20px;
+}
+#div>div>div:last-child>label{
+/* text-align: left; */
+
+}
+#div>div>div:last-child>button{
+margin: 30px 45%;
+/* width: 150px; */
+/* height: 40px; */
+padding: 15px 60px;
+font-size: 18px;
+color: white;
+background-color:#e91e62;
+cursor: pointer;
+border-radius: 5px;
+border: none;
+}
+#div>div>div:last-child>button:hover{
+background-color:#de3970;
+color: whitesmoke;
+
+}
+input{
+/* word-spacing: 10px; */
+letter-spacing: 3px;
+padding-left: 15px;
+}
+
+
+        /* Help for travelers */
+                
+        #help{
+      width: 85%;
+      margin: auto;
+      padding-left: 15px;
+      margin-top: 80px;
+  }
+  #help>div{
+      display: flex;
+                
+  }
+  #help>div>div{
+      width: 30%;
+      margin: auto;
+      /* border: 1px solid red; */
+      box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+      padding: 0px 15px;
+      
+  }
+  #help>div>div>div{
+      display: flex;
+      justify-content: space-between;
+      
+  }
+  #help>div>div>div>img{
+      width: 20px;
+  }
+  #help>div>div>p{
+   margin-top: 0px;
+  }
+
+                   /* todolo */
+
+      #todolo{
+        width: 85%;
+        margin: auto;
+        margin-top: 30px;
+
+      }
+      #todolo>h1{
+        margin-bottom: 0px;
+      }
+      #todolo>div{
+        display: flex;
+        flex-direction:row;
+        flex-shrink: inherit;
+        gap: 20px;
+      }
+         #todolo>div>div{
+          /* border: 1px solid red; */
+          width: 220px;
+          height: 280px;
+          display: flex;
+          color: white;
+          flex-direction: column;
+          justify-content: end;
+          padding-left: 15px;
+          /* text-shadow: 1px 1px black; */
+          box-shadow: black 0px -70px 100px -48px inset;
+          
+         }
+         #todolo>div>div>p{
+          margin-top: 0px;
+          }
+         #todolo>div>div>h3{
+          margin-bottom: 2px;
+          font-size: 19px;
+           }
+
+           #todolo>div>div:nth-child(1){
+            background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2020/10/27/3orbhotels.jpg?impolicy=fcrop&w=200&h=267&q=medium");
+            background-size: cover;
+            
+           }
+           #todolo>div>div:nth-child(2){
+            background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2020/10/20/2ORBLOBPackage_-_V1.jpg?impolicy=fcrop&w=200&h=267&q=medium");
+            background-size: cover;
+           }
+           #todolo>div>div:nth-child(3){
+            background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2020/10/20/2ORBLOBFlights_-_V1.jpg?impolicy=fcrop&w=200&h=267&q=medium");
+            background-size: cover;
+           }
+           #todolo>div>div:nth-child(4){
+            background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2020/10/20/ORBLOBCar.jpg?impolicy=fcrop&w=200&h=267&q=medium");
+            background-size: cover;
+           }
+           #todolo>div>div:nth-child(5){
+            background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2020/10/27/thingsorb.jpg?impolicy=fcrop&w=200&h=267&q=medium");
+            background-size: cover;
+           }
+           #todolo>div>div:nth-child(6){
+            background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2020/10/20/2ORBLOBCruise.jpg?impolicy=fcrop&w=200&h=267&q=medium");
+            background-size: cover;
+           }
+
+
+
+                              /* Get an app */
+
+    #app{
+        width: 85%;
+        margin: auto;
+        margin-top: 40px;
+        display: flex;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    }
+    #app>div:first-child{
+        width: 40%;
+    }
+    #app>div:first-child>img{
+        width: 100%;
+        height: 100%;
+    
+    }
+    #app>div:last-child>div:first-child{
+        display: flex;
+        /* padding: 15px; */
+       
+
+    }
+    #app>div:last-child>div:first-child img{
+        width: 180px;
+        padding-top: 30px;
+    
+    }
+    #app>div:last-child>div:first-child>div:last-child{
+        margin-right: 10px;
+    }
+    #app>div:last-child>div:first-child h1{
+        width: 88%;
+        padding-left: 20px;
+    }
+    #app>div:last-child>div:first-child h4{
+        margin-top: 0px;
+        text-align: center;
+    }
+    #app>div:last-child>div:first-child ul{
+        color: gray;
+        line-height: 35px;
+    }
+    #app>div:last-child>div:last-child{
+        padding-left: 20px;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    #app>div:last-child>div:last-child>input,#app>div:last-child>div:last-child>select{
+        height: 50px;
+        padding-left: 20px;
+        font-size: 17px;
+        width: 150px;
+        border: 1px solid gray;
+    }
+    #app>div:last-child>div:last-child>select+input{
+        margin-left: 10px;
+    }
+    #app>div:last-child>div:last-child>button{
+        
+        padding: 18px 45px;
+        margin-left: 15px;
+        font-size: 18px;
+        color: white;
+        background-color:#e91e62;
+        cursor: pointer;
+        border-radius: 5px;
+        border: none;
+
+    }
+    #app>div:last-child>div:last-child>button:hover{
+       background-color: #be2457;
+
+    }
+    #app>div:last-child>div:last-child{
+        width: 68%;
+    }
+    #app>div:last-child>div:last-child>p{
+        color: gray;
+        font-size: 14px;
+    }
+
+
+
+
+                      /* groups */
+
+                      #group{
+        display: flex;
+        width: 85%;
+        margin: auto;
+        height: 400px;
+        margin-top: 60px;
+        margin-bottom: 20px;
+       
+      }
+      #group>div{
+        width: 18%;
+        height: 100%;
+        margin: auto;
+        /* border: 1px solid red; */
+      }
+      #group>div>h4{
+        margin-top: 0px;
+      }
+      #group>div>p{
+        font-size: 14.5px;
+        font-weight: lighter;
+        color: teal;
+        text-shadow:0 0 3px black 0 0 5px black;
+        
+      }
+      #group>div>p:hover{
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    
+      </style>
+
+</head>
+<body>
+                            <!-- Navbar -->
+    <div id="nav">
+      <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTliu4ZRZDaxT8YlzBK-pOx7EirWqLRWlOzMw&usqp=CAU" alt="">
+        <select name="More travel v" id="">
+            
+            <option value="More travel v">Más opciones de viaje</option>
+          <option value="Stay">Stay</option>
+          <option value="Flight">Flight</option>
+          <option value="Packages">Packages</option>
+          <option value="Cars">Cars</option>
+          <option value="Cruises">Cruises</option>
+          <option value="Things">Things to do</option>
+        
+        </select> 
+    </div>
+           
+      <div>
+        <button><a href="web_101_project.html">English</a></button>
+        <button>Anunciar una propiedad</button>
+        <button> Atención al cliente</button>
+        <button>Mis viajes</button>
+        <button>Iniciar sesión</button>
+      </div>
+    </div>
+                                   <!-- searchbar -->
+    <div id="div">
+        
+        <div>
+         <div>
+             <button>Hospedaje</button>
+             <button>Vuelos</button>
+             <button>Autos</button>
+             <button>Paquetes</button>
+             <button>Actividades</button>
+          
+ 
+         </div>
+         <div>
+             <form >
+             <input type="search" placeholder="Destino">
+             <input type="date" placeholder="Check-in">
+             <input type="date" placeholder="Check-out">
+           <input type="text" placeholder="Personas">
+         </form>
+           <input type="checkbox" name="" id="" >
+           <label for="input">Agregar un vuelo</label>
+             <input type="checkbox" name="" id="">
+             <label for="">Agregar un auto</label>
+             <br>
+             <button>Buscar</button>
+         </div>
+        
+        </div>
+        
+     </div>
+
+                                <!-- help for travelers -->
+      <div id="help">
+             <h1>Estamos para ayudarte</h1>
+             <div>
+                <div>
+                    <div>
+                        <h2> Cambia o cancela tu viaje</h2>
+                        <img src="https://forever.travel-assets.com/flex/flexmanager/images/2021/04/08/icon__mode_edit.svg" alt="">
+                    </div>
+                    <p>Actualiza tu itinerario o cancela una reservación</p>
+                </div>
+
+                <div>
+                    <div>
+                        <h2>Usa un crédito o cupón</h2>
+                        <img src="https://forever.travel-assets.com/flex/flexmanager/images/2021/04/08/icon__monetization_on.svg" alt="">
+                    </div>
+                    <p>Utiliza tu cupón o crédito para un viaje nuevo</p>
+                </div>
+
+                <div>
+                    <div>
+                        <h2>Monitorea tu reembolso</h2>
+                        <img src="https://forever.travel-assets.com/flex/flexmanager/images/2021/04/08/icon__chat.svg" alt="">
+                    </div>
+                    <p>Revisa el estado de tu reembolso en proceso</p>
+                </div>
+                
+             </div>
+      </div>
+
+
+               <!-- Todo lo que -->
+        <div id="todolo">
+               <h1>Todo lo que necesitas para viajar en un solo sitio</h1>
+               <p> Descubre destinos, lugares para hospedarte y actividades con Orbitz</p>
+              
+               <div>
+               
+                <div>
+                  <h3>Hoteles
+                   </h3>
+                  <p> Elige entre más de un
+                    millón de lugares
+                    para hospedarte </p>
+                </div>
+                <div>
+                  <h3>Paquetes
+                   </h3>
+                  <p> Reserva juntos tu
+                    vuelo, hotel y auto</p>
+                </div>
+                <div>
+                  <h3> Vuelos
+                    </h3>
+                  <p>Encuentra boletos de
+                    avión con más de 400
+                    aerolíneas</p>
+                </div>
+                <div>
+                  <h3> Renta de autos
+                   </h3>
+                  <p> Encuentra tu
+                    arrendadora de autos
+                    de confianza</p>
+                </div>
+                <div>
+                  <h3>Actividades
+                    </h3>
+                  <p>Ve cuáles son las principales experiencias en tu
+                    destino
+                    </p>
+                </div>
+                <div>
+                  <h3>Cruceros
+                   </h3>
+                  <p> Accede a irresistibles ofertas para viajar en
+                    crucero</p>
+                </div>
+               
+              </div>
+        </div>
+
+
+
+                                <!-- App for travelers  -->
+        
+    <div id="app">
+
+      <div>
+          <img src="https://a.travel-assets.com/mad-service/footer/marquee/ORB_App_Footer_v1.jpg" alt="">
+      </div>
+    
+      <div>
+         
+          <div>
+              <div>
+                  <h1>Aprovecha las recompensas de la app de Orbitz
+                  </h1>
+                  <ul>
+                     <li>Obtén una devolución de crédito del 4% al reservar tu hotel en la app o el 3% en el sitio web</li>
+                     <li>Recibe notificaciones del estado del vuelo y el número de puerta</li>
+                     <li>Contacta a tu hospedaje directamente desde la app</li>
+                  </ul>
+              </div>
+
+              <div>
+                  <img src="https://a.travel-assets.com/mad-service/qr-code/portfolio_app_landing/qr_app_landing_footer_orbitz.png" alt="">
+                  <label for="img"><h4>Escanea el código QR</h4></label>
+              </div>
+          </div>
+          
+          <div>
+               <h2>Envía un enlace de descarga a tu celular</h2>
+               <select name="Country Tag" id="">
+                <option value="">Código del país</option>
+                  <option value="">India 91+</option>
+                  <option value="">Germany +49</option>
+                  <option value="">Norway +47</option>
+                  <option value="">Mexico +52</option>
+                  <option value="">USA +1</option>
+               </select>
+               <input type="number" placeholder="Teléfono">
+               <button>Descargar</button>
+               <p>Al proporcionar tu número, aceptas recibir un mensaje de texto único, automatizado, con un enlace para descargar la app. Podrían aplicarse tarifas estándar de mensajes de texto.</p>
+          </div>
+      </div>
+
+  </div>
+
+
+
+  
+                 <!-- groups -->
+
+                 <div id="group">
+        
+                  <div>
+                      <img src="https://a.travel-assets.com/globalcontrols-service/content/f285fb631b0a976202ef57611c7050e9ef5ca51a/images/EG_Wordmark_blue_RGB.svg" alt="">
+          
+                  </div>
+          
+                  <div>
+                      <h4>Compañía</h4>
+                      <p>Quiénes somos
+                    </p>
+                      <p>Empleo</p>
+                      <p>Anunciar una propiedad</p>
+                      <p>Opciones para socios
+                    </p>
+                      <p>Sala de prensa
+                    </p>
+                      <p>Relaciones con los inversionistas
+                        </p>
+                      <p>Site Map</p>
+                      <p>Orbitz Rewards</p>
+                      <p>Publicidad</p>
+                  </div>
+                  <div>
+                      <h4>Ideas para inspirarte</h4>
+                      <p>Hoteles en Estados Unidos</p>
+                      <p>Casas vacacionales en Estados Unidos</p>
+                      <p>Car rentals in United States</p>
+                      <p>Renta de carros en Estados Unidos</p>
+                      <p>Viajes a Estados Unidos</p>
+                     
+                      <p>Todos tipos de alojamiento</p>
+                      
+                  </div>
+                  <div>
+                      <h4>Políticas</h4>
+                      <p>Aviso de privacidad</p>
+                      <p>Términos de uso</p>
+                      <p>No quiero que se venda mi información personal</p>
+                      <p>Términos de Orbitz Rewards</p>
+                      
+                  </div>
+                  <div>
+                      <h4>Ayuda</h4>
+                      <p>Ayuda</p>
+                      <p>Cancelar tu reservación de hotel o renta vacacional</p>
+                      <p>Cancelar tu vuelo</p>
+                      <p>Plazos de reembolso</p>
+                      <p>Cómo usar un cupón de Expedia</p>
+                  </div>
+               </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+

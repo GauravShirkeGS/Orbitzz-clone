@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+                      /* Get an app */
+
+    #app{
+        width: 85%;
+        margin: auto;
+        margin-top: 40px;
+        display: flex;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    }
+    #app>div:first-child{
+        width: 40%;
+    }
+    #app>div:first-child>img{
+        width: 100%;
+        height: 100%;
+    
+    }
+    #app>div:last-child>div:first-child{
+        display: flex;
+        /* padding: 15px; */
+       
+
+    }
+    #app>div:last-child>div:first-child img{
+        width: 180px;
+        padding-top: 30px;
+    
+    }
+    #app>div:last-child>div:first-child>div:last-child{
+        margin-right: 10px;
+    }
+    #app>div:last-child>div:first-child h1{
+        width: 88%;
+        padding-left: 20px;
+    }
+    #app>div:last-child>div:first-child h4{
+        margin-top: 0px;
+        text-align: center;
+    }
+    #app>div:last-child>div:first-child ul{
+        color: gray;
+        line-height: 35px;
+    }
+    #app>div:last-child>div:last-child{
+        padding-left: 20px;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    #app>div:last-child>div:last-child>input,#app>div:last-child>div:last-child>select{
+        height: 50px;
+        padding-left: 20px;
+        font-size: 17px;
+        width: 150px;
+        border: 1px solid gray;
+    }
+    #app>div:last-child>div:last-child>select+input{
+        margin-left: 10px;
+    }
+    #app>div:last-child>div:last-child>button{
+        
+        padding: 18px 45px;
+        margin-left: 15px;
+        font-size: 18px;
+        color: white;
+        background-color:#e91e62;
+        cursor: pointer;
+        border-radius: 5px;
+        border: none;
+
+    }
+    #app>div:last-child>div:last-child>button:hover{
+       background-color: #be2457;
+
+    }
+    #app>div:last-child>div:last-child{
+        width: 68%;
+    }
+    #app>div:last-child>div:last-child>p{
+        color: gray;
+        font-size: 14px;
+    }
+
+
+
+                    /* groups */
+
+      #group{
+        display: flex;
+        width: 85%;
+        margin: auto;
+        height: 400px;
+        margin-top: 60px;
+        margin-bottom: 20px;
+       
+      }
+      #group>div{
+        width: 18%;
+        height: 100%;
+        margin: auto;
+        /* border: 1px solid red; */
+      }
+      #group>div>h4{
+        margin-top: 0px;
+      }
+      #group>div>p{
+        font-size: 14.5px;
+        font-weight: lighter;
+        color: teal;
+        text-shadow:0 0 3px black 0 0 5px black;
+        
+      }
+      #group>div>p:hover{
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    
+    </style>
+</head>
+<body>
+                           <!-- App for travelers  -->
+        
+    <div id="app">
+
+        <div>
+            <img src="https://a.travel-assets.com/mad-service/footer/marquee/ORB_App_Footer_v1.jpg" alt="">
+        </div>
+      
+        <div>
+           
+            <div>
+                <div>
+                    <h1>Rewards are waiting for you in the Orbitz app</h1>
+                    <ul>
+                       <li>Earn 4% back when you book your hotel app, vs. 3% on site</li>
+                       <li>Get flight status and gate number notifications</li>
+                       <li>Have questions about your stay? Message your hotel right in the app</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <img src="https://a.travel-assets.com/mad-service/qr-code/portfolio_app_landing/qr_app_landing_footer_orbitz.png" alt="">
+                    <label for="img"><h4>Scan the QR code</h4></label>
+                </div>
+            </div>
+            
+            <div>
+                 <h2>Text your self a download link</h2>
+                 <select name="Country Tag" id="">
+                    <option value="">India 91+</option>
+                    <option value="">Germany +49</option>
+                    <option value="">Norway +47</option>
+                    <option value="">Mexico +52</option>
+                    <option value="">USA +1</option>
+                 </select>
+                 <input type="number" placeholder="Phon number">
+                 <button>Get the app</button>
+                 <p>By providing your number, you agree to receive a one-time automated text message with a link to get the app. Standard text message rates may apply.</p>
+            </div>
+        </div>
+
+    </div>
+
+
+                 <!-- groups -->
+
+     <div id="group">
+        
+        <div>
+            <img src="https://a.travel-assets.com/globalcontrols-service/content/f285fb631b0a976202ef57611c7050e9ef5ca51a/images/EG_Wordmark_blue_RGB.svg" alt="">
+
+        </div>
+
+        <div>
+            <h4>Company</h4>
+            <p>About</p>
+            <p>Jobs</p>
+            <p>List your priority</p>
+            <p>Partnerships</p>
+            <p>Newsroom</p>
+            <p>Investor Relations</p>
+            <p>Site Map</p>
+            <p>Orbitz Rewards</p>
+            <p>Advertising</p>
+        </div>
+        <div>
+            <h4>Explore</h4>
+            <p>Hotels in United States</p>
+            <p>Vacation Rentals in United States</p>
+            <p>Car rentals in United States</p>
+            <p>Domestic Flights</p>
+            <p>Vacation Pakages in United States</p>
+            <p>Orbitz Review</p>
+            <p>Orbitz coupans</p>
+            <p>LGBTQ Travel</p>
+            <p>Unique Accommodations</p>
+            <p>Travel blog</p>
+        </div>
+        <div>
+            <h4>Policies</h4>
+            <p>Privacy Policy</p>
+            <p>Terms of Use</p>
+            <p>Verbo Terms and Conditions</p>
+            <p>Orbitz Reward Terms</p>
+            <p>Do Not Sell My Personal Information</p>
+        </div>
+        <div>
+            <h4>Help</h4>
+            <p>Support</p>
+            <p>Cancel your hotel or vacation rental booking</p>
+            <p>Cancel your flight</p>
+            <p>Refund timelines, Policies & processes</p>
+            <p>Use an Orbitz coupon</p>
+        </div>
+     </div>
+</body>
+</html>
