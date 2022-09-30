@@ -245,3 +245,71 @@ padding-left: 15px;
   #help>div>div>p{
    margin-top: 0px;
   }
+
+
+              /* tips for travelers */
+    
+              #tips{
+                width: 85%;
+                margin: auto;
+                margin-top: 50px;
+            }
+            #tips>div{
+                display: grid;
+               grid-template-columns: repeat(2,1fr);
+               gap: 20px;
+            }
+            #tips>div>div{
+              /* border: 1px solid red; */
+              padding: 52px 0px 60px 35px;
+            
+              color: white;
+              /* letter-spacing: 3px; */
+              font-size: 19px;
+              text-shadow: gray;
+              filter: grayscale(60%);
+              
+            }
+            #tips>div>div>button{
+                padding: 12px 25px;
+                color: teal;
+                background-color: white;
+                border: none;
+                font-size: 17px;
+                font-weight: bold;
+              
+            }
+            #tips>div>div:nth-child(1){
+               
+                  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/18/ORB_Blog_NationalParks_imgB_1199x399_20211117.jpg");
+                filter: brightness(1.1);
+    
+                color: white;
+                background-repeat: no-repeat;
+                background-attachment: scroll;
+                background-position: center center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                 background-size: cover;
+               
+            }
+            #tips>div>div:nth-child(2){
+               
+                   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/18/ORB_Blog_RoadTrips_imgB_1199x399_20211117.jpg");
+                filter: brightness(1.2);
+    
+                color: white;
+                background-repeat: no-repeat;
+                background-attachment: scroll;
+                background-position: center center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                 background-size: cover;
+            }
+            #tips>div>div>h2,#tips>div>div>p{
+                filter: brightness(100%);
+            }
