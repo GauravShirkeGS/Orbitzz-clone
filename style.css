@@ -529,6 +529,10 @@ padding-left: 15px;
         #sign-nav>img{
             width: 150px;
         }
+        #sign-nav>a>img{
+            width: 50px;
+            margin-left: 30px;
+        }
         #sign-nav>img:last-child{
             margin-left: 40%;
         }
@@ -573,4 +577,27 @@ padding-left: 15px;
         }
         #sign-in a:hover{
             text-decoration: underline;
-        }        
+        }  
+        
+        
+                          /* iternal page css  */
+                          #iternal{
+                            width: 28%;
+                            margin: auto;
+                            display: flex;
+                            flex-direction: column;
+                            gap: 20px;
+                            margin-bottom: 350px;
+                          }
+                          #iternal>input{
+                              padding: 10px 0px 10px 10px;
+                          }
+                          #iternal>button{
+                              padding: 10px 0px 10px 0px;
+                              border: none;
+                              background-color:#e91e62 ;
+                              color: white;
+                          }
+                          #iternal>a>img{
+                              width: 60px;
+                          }
