@@ -1,0 +1,4 @@
+[[redirects]]
+from = "/*"
+to = "/web_101_project.html"
+status=200
